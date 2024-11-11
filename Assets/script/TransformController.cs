@@ -10,6 +10,7 @@ public class TransformController : MonoBehaviour
 
     private void Awake()
     {
+        BallMoveSpeed = 7;
         TD = GetComponent<TransformData>();
     }
 

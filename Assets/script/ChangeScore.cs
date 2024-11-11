@@ -48,7 +48,7 @@ public class ChangeScore : MonoBehaviour
 
     public void PathColorChangeControl()
     {
-        if (score - scoree == 0)
+        if (score - scoree >= 0)
         {
             PathColorChange();
             scoree += 49;
